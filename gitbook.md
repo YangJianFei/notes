@@ -6,12 +6,17 @@
 npm install gitbook-cli -g
 ```
 
-### 3：在线运行
+### 3：初始化
+```
+gitbook init
+```
+
+### 4：在线运行
 ```
 gitbook serve
 ```
 
-### 4：生成html书
+### 5：生成html书
 ```
 gitbook build
 ```
