@@ -5,6 +5,9 @@
 
 ### 前端
 
+* [设计](./src/page/design/design.md)
+    * [配色](./src/page/design/color.md)
+
 * [vue](./src/page/frontEnd/vue/readme.md)
     * [vue使用ts](./src/page/frontEnd/vue/vue使用ts.md)
     * [vue兼容IE](./src/page/frontEnd/vue/vue兼容IE.md)
