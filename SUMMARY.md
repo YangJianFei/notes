@@ -53,6 +53,7 @@
 * [webpack](./src/page/developTool/webpack/webpack.md)
 * [工具](./src/page/developTool/工具.md)
 * [vscode](./src/page/developTool/vscode.md)
+* [gitbook](./src/page/developTool/gitbook.md)
 
 ### 开发资源
 * [题库](./src/page/developSource/developSource.md)

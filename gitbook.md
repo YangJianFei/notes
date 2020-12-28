@@ -13,12 +13,12 @@ gitbook init
 
 ### 4：在线运行
 ```
-gitbook serve
+gitbook serve [book] [output]
 ```
 
 ### 5：生成html书
 ```
-gitbook build
+gitbook build [book] [output]
 ```
 
 
