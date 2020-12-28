@@ -56,7 +56,7 @@
 * [gitbook](./src/page/developTool/gitbook.md)
 
 ### 开发资源
-* [题库](./src/page/developSource/developSource.md)
+* [开发资源](./src/page/developSource/developSource.md)
     * [题库资源](./src/page/developSource/题库资源.md)
     * [项目资源](./src/page/developSource/项目资源.md)
 
