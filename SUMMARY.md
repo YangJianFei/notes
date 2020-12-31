@@ -71,6 +71,8 @@
 ### windows
 * [windows](./src/page/windows/windows.md)
     * [工具](./src/page/windows/工具.md)
+    * [阿里云域名配置](./src/page/windows/阿里云域名配置.md)
+
 
 ### 生活
 * [生活](./src/page/life/life.md)
