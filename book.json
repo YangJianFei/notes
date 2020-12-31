@@ -27,7 +27,9 @@
         "anchor-navigation-ex",
         "favicon",
         "tbfed-pagefooter",
-        "mygitalk"
+        "mygitalk",
+        "insert-logo",
+        "pageview-count"
     ],
     "pluginsConfig": {
         "github": {
@@ -107,6 +109,14 @@
                 "YangJianFei"
             ],
             "distractionFreeMode": false
+        },
+        "insert-logo": {
+            "url": "./src/img/baiyang.png",
+            "style": "background:none; height:30px;"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
         }
     }
 }
