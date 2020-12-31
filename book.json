@@ -101,7 +101,7 @@
         "mygitalk": {
             "clientID": "ff8156cf39addd7559f4",
             "clientSecret": "59b3ab8ea694407526de45ff7c117e424ec90a30",
-            "repo": "https://github.com/YangJianFei/notes",
+            "repo": "notes-comments",
             "owner": "YangJianFei",
             "admin": [
                 "YangJianFei"
