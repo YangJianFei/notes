@@ -21,4 +21,7 @@ gitbook serve [book] [output]
 gitbook build [book] [output]
 ```
 
-
+### 安装插件
+```
+gitbook install
+```

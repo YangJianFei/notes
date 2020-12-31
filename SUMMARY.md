@@ -56,6 +56,7 @@
     * [我的git](./src/page/developTool/git/我的git.md)
     * [git使用](./src/page/developTool/git/git使用.md)
 * [webpack](./src/page/developTool/webpack/webpack.md)
+    * [webpack加载文件配置](./src/page/developTool/webpack/webpack加载文件配置.md)
 * [工具](./src/page/developTool/工具.md)
 * [vscode](./src/page/developTool/vscode.md)
 * [gitbook](./src/page/developTool/gitbook.md)
