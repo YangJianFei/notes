@@ -9,7 +9,7 @@
 
 ### 前端
 * [前端资源](./src/page/frontEnd/前端资源.md)
-* [前端统计错误日志](./src/page/frontEnd/前端统计错误日志.md)
+* [前端统计](./src/page/frontEnd/前端统计.md)
 * [jsfont前端资源](./src/page/frontEnd/jsfont前端资源.md)
 * [html](./src/page/frontEnd/html/html.md)
     * [html快速模板](./src/page/frontEnd/html/html快速模板.md)
@@ -32,6 +32,7 @@
     * [vue兼容IE](./src/page/frontEnd/vue/vue兼容IE.md)
     * [vue引用cdn库](./src/page/frontEnd/vue/vue引用cdn库.md)
     * [创建vue项目](./src/page/frontEnd/vue/创建vue项目.md)
+    * [vue打包](./src/page/frontEnd/vue/vue打包.md)
     * [vue项目搭建及基本使用](./src/page/frontEnd/vue/vue项目搭建及基本使用.md)
     * [vue资源](./src/page/frontEnd/vue/vue资源.md)
 
