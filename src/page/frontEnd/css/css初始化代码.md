@@ -182,3 +182,89 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 
 .clear {clear:both;}
 ```
+
+## 我的
+```
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 2.5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #f5f5f5;
+}
+
+/*其他*/
+.tx-center {
+    text-align: center;
+}
+.tx-right {
+    text-align: right;
+}
+.fl-right {
+    float: right;
+}
+.cl-theme {
+    color: $theme-color !important;
+}
+.cl-warning {
+    color: $theme-color-warning;
+}
+.cl-danger {
+    color: $theme-color-danger;
+}
+.cl-big-gray {
+    color: $theme-color-big-gray;
+}
+.cl-gray {
+    color: $theme-color-gray;
+}
+.tx-row1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+```
