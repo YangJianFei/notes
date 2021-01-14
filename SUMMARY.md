@@ -6,6 +6,7 @@
 ### 设计
 * [配色](./src/page/design/color.md)
 * [ps](./src/page/design/ps.md)
+* [资源](./src/page/design/资源.md)
 
 ### 前端
 * [前端资源](./src/page/frontEnd/前端资源.md)

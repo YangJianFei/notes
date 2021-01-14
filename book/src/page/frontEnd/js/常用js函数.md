@@ -210,3 +210,14 @@ export const toggleClass = function(obj, cls) {
 };
 
 ```
+
+## 日期增加月
+```
+function addMonth(d,m){
+   var ds=d.split('-'),_d=ds[2]-0;
+   var nextM=new Date( ds[0],ds[1]-1+m+1, 0 );
+   var max=nextM.getDate();
+   d=new Date( ds[0],ds[1]-1+m,_d>max? max:_d );
+   return d.toLocaleDateString().match(/\d+/g).join('-')
+}
+```
