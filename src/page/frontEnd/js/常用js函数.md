@@ -221,3 +221,12 @@ function addMonth(d,m){
    return d.toLocaleDateString().match(/\d+/g).join('-')
 }
 ```
+
+## js阻止默认行为
+```
+  if (e.preventDefault) {
+      e.preventDefault();
+  } else {
+      window.event.returnValue == false;
+  }
+```
