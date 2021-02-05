@@ -16,3 +16,6 @@ https://docs.github.com/cn
 
 ## git徽章图标
 https://img.shields.io
+
+## 拉取远程分支到本地
+git checkout -b dev(本地分支名称) origin/dev(远程分支名称)

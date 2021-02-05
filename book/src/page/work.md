@@ -142,7 +142,9 @@ nos-cli选择包配置
 表单编辑框的msg提示有时跑到后面去了
 noslogo文字配置
 菜单和标签取同一个源
-弹窗不能拖出区域
+shiro：menu、oplog、user、user-role模块
+更多搜索条件
+
 
 ccf.aieraonline.cn  (竞赛平台)
 cps.ns-china.net (cps.aieraonline.cn) 竞赛平台
