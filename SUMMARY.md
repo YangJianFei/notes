@@ -54,6 +54,8 @@
     * [nexus](./src/page/frontEnd/npm/nexus.md)
     * [npm私库搭建](./src/page/frontEnd/npm/npm私库搭建.md)
 
+* [echart](./src/page/frontEnd/echart/echart.md)
+    * [echart使用](./src/page/frontEnd/echart/echart使用.md)
 
 ### 后台
 
