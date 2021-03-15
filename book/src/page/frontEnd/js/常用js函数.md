@@ -337,3 +337,36 @@ function _css(el, prop, val) {
     }
 }
 ```
+## 拖动改变位置
+```
+var moveStar = false;
+var disT, disR, mouseX, mouseY;
+var $analysisBox;
+$('.analysis-box').on('mousedown', function (e) {
+    $analysisBox = $(this);
+    moveStar = true;
+    disT = $(this).css('top').replace('px', '') * 1;
+    disR = $(this).css('right').replace('px', '') * 1;
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+
+    document.onmousemove = function (e) {
+        if (moveStar) {
+            if (e.preventDefault) {
+                e.preventDefault();
+            } else {
+                window.event.returnValue == false;
+            }
+            var moveX = mouseX - e.clientX;
+            $analysisBox.css('right', disR + moveX);
+            var moveY = e.clientY - mouseY;
+            $analysisBox.css('top', disT + moveY);
+        }
+    };
+    document.onmouseup = function () {
+        moveStar = false;
+        document.onmousemove = null;
+        document.onmouseup = null;
+    };
+});
+```

@@ -6,3 +6,6 @@
 
 ## mock.js ajax
 请求拦截， 模拟请求数据。
+
+## jspdf
+https://artskydj.github.io/jsPDF/docs/module-addImage.html
