@@ -237,6 +237,13 @@ input[type="number"] {
     background: #f5f5f5;
 }
 
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
 /*其他*/
 .tx-center {
     text-align: center;

@@ -145,6 +145,14 @@ noslogo文字配置
 更多搜索条件
 快捷页面
 赛马程序
+网络错位判断
+
+
+```
+	拖动出浏览器外面bug
+	下一题有时会加上forbidden	class
+```
+
 
 
 ccf.aieraonline.cn  (竞赛平台)
