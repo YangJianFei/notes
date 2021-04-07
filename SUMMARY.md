@@ -12,6 +12,7 @@
 * [前端资源](./src/page/frontEnd/前端资源.md)
 * [前端统计](./src/page/frontEnd/前端统计.md)
 * [jsfont前端资源](./src/page/frontEnd/jsfont前端资源.md)
+* [前端面试](./src/page/frontEnd/前端面试.md)
 * [html](./src/page/frontEnd/html/html.md)
     * [html快速模板](./src/page/frontEnd/html/html快速模板.md)
 
