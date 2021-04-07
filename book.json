@@ -108,7 +108,8 @@
             "admin": [
                 "YangJianFei"
             ],
-            "distractionFreeMode": false
+            "distractionFreeMode": false,
+            "proxy": "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
         },
         "insert-logo": {
             "url": "./src/img/baiyang.png",
