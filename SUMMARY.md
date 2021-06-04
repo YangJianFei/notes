@@ -67,6 +67,7 @@
     * [git使用](./src/page/developTool/git/git使用.md)
 * [gittalk](./src/page/developTool/gittalk/gittalk.md)
     * [gittalk使用](./src/page/developTool/gittalk/gittalk使用.md)
+* [jenkins](./src/page/developTool/jenkins/jenkins.md)
 * [webpack](./src/page/developTool/webpack/webpack.md)
     * [webpack加载文件配置](./src/page/developTool/webpack/webpack加载文件配置.md)
 * [工具](./src/page/developTool/工具.md)
