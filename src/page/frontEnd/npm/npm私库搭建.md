@@ -13,3 +13,6 @@ http://blog.fens.me/nodejs-cnpm-npm/
 https://www.cnblogs.com/tugenhua0707/p/9163167.html
 
 https://www.cnblogs.com/jasonwang2y60/p/11382349.html
+
+## cnpm
+https://mp.weixin.qq.com/s/92mKC640iUNlpJqQufxP6w
