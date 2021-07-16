@@ -6,7 +6,7 @@ https://vnzmi.com/2018/11/14/get-start-with-webrtc-peer-connection/
 
 ## 示例-clienA
 ```
-const signaling = new SignalingChannel(); //第一步 创建信令连接（用户交换webRtc额外数据，操作）
+const signaling = new SignalingChannel(); //第一步 创建信令连接（用户交换webRtc额外数据，操作），可以是websoket等通信
 const constraints = {audio: true, video: true}; //生成获取媒体流配置
 const configuration = {iceServers: [{urls: 'stuns:stun.example.org'}]}; //webtrc连接配置
 const pc = new RTCPeerConnection(configuration); //第二部 生成webrtc对象
@@ -46,7 +46,7 @@ async function start() {
   }
 }
 
-signaling.onmessage = async ({desc, candidate}) => {
+signaling.onmessage = async ({desc, candidate}) => { //信令消息处理
   try {    
     if (desc) {
       // if we get an offer, we need to reply with an answer
