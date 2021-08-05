@@ -1,3 +1,6 @@
+## vscode同步配置插件等
+setting sync
+
 ### 插件
 gitlens
 

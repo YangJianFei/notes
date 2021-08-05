@@ -13,3 +13,14 @@ http://blog.fens.me/nodejs-cnpm-npm/
 https://www.cnblogs.com/tugenhua0707/p/9163167.html
 
 https://www.cnblogs.com/jasonwang2y60/p/11382349.html
+
+## cnpm
+https://mp.weixin.qq.com/s/92mKC640iUNlpJqQufxP6w
+
+## 编写声明文件方便编辑器提示
+https://segmentfault.com/a/1190000009247663
+
+https://juejin.cn/post/6844904135519633422
+
+element-tags.json
+element-attrbiutes.json

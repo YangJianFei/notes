@@ -1,0 +1,1446 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>vscode代码提示 · 黑发海贼 共享笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="黑发海贼">
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../css/common.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../echart/echart.html" />
+    
+    
+    <link rel="prev" href="npm私库搭建.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../../../source/images/apple-touch-icon.jpg'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../../../source/images/apple-touch-icon.jpg">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../source/images/apple-touch-icon.jpg">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"YangJianFei","repo":"notes","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/YangJianFei" target="_blank" class="custom-link">我的 Git</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    本书介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../../gitbook.html">
+            
+                <a href="../../../../gitbook.html">
+            
+                    
+                    gitbook 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">设计</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../design/color.html">
+            
+                <a href="../../design/color.html">
+            
+                    
+                    配色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../design/ps.html">
+            
+                <a href="../../design/ps.html">
+            
+                    
+                    ps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../design/资源.html">
+            
+                <a href="../../design/资源.html">
+            
+                    
+                    资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">前端</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../前端资源.html">
+            
+                <a href="../前端资源.html">
+            
+                    
+                    前端资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../前端统计.html">
+            
+                <a href="../前端统计.html">
+            
+                    
+                    前端统计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../jsfont前端资源.html">
+            
+                <a href="../jsfont前端资源.html">
+            
+                    
+                    jsfont前端资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../前端面试.html">
+            
+                <a href="../前端面试.html">
+            
+                    
+                    前端面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../前端架构.html">
+            
+                <a href="../前端架构.html">
+            
+                    
+                    前端架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../html/html.html">
+            
+                <a href="../html/html.html">
+            
+                    
+                    html
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.6.1" data-path="../html/html快速模板.html">
+            
+                <a href="../html/html快速模板.html">
+            
+                    
+                    html快速模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../css/css.html">
+            
+                <a href="../css/css.html">
+            
+                    
+                    css
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.7.1" data-path="../css/常用css.html">
+            
+                <a href="../css/常用css.html">
+            
+                    
+                    常用css
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7.2" data-path="../css/动画.html">
+            
+                <a href="../css/动画.html">
+            
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7.3" data-path="../css/css初始化代码.html">
+            
+                <a href="../css/css初始化代码.html">
+            
+                    
+                    css初始化代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7.4" data-path="../css/css资源.html">
+            
+                <a href="../css/css资源.html">
+            
+                    
+                    css资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7.5" data-path="../css/jsfont常用css.html">
+            
+                <a href="../css/jsfont常用css.html">
+            
+                    
+                    jsfont常用css
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../js/js.html">
+            
+                <a href="../js/js.html">
+            
+                    
+                    js
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.8.1" data-path="../js/常用js函数.html">
+            
+                <a href="../js/常用js函数.html">
+            
+                    
+                    常用js函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.2" data-path="../js/cookie.html">
+            
+                <a href="../js/cookie.html">
+            
+                    
+                    cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.3" data-path="../js/js库.html">
+            
+                <a href="../js/js库.html">
+            
+                    
+                    js库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.4" data-path="../js/js疑难问题.html">
+            
+                <a href="../js/js疑难问题.html">
+            
+                    
+                    js疑难问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.5" data-path="../js/jsfront常用js代码.html">
+            
+                <a href="../js/jsfront常用js代码.html">
+            
+                    
+                    jsfront常用js代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.6" data-path="../js/layzeload.html">
+            
+                <a href="../js/layzeload.html">
+            
+                    
+                    layzeload
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.7" data-path="../js/webrtc.html">
+            
+                <a href="../js/webrtc.html">
+            
+                    
+                    webrtc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../vue/vue.html">
+            
+                <a href="../vue/vue.html">
+            
+                    
+                    vue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.9.1" data-path="../vue/vue使用ts.html">
+            
+                <a href="../vue/vue使用ts.html">
+            
+                    
+                    vue使用ts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.2" data-path="../vue/vue兼容IE.html">
+            
+                <a href="../vue/vue兼容IE.html">
+            
+                    
+                    vue兼容IE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.3" data-path="../vue/vue引用cdn库.html">
+            
+                <a href="../vue/vue引用cdn库.html">
+            
+                    
+                    vue引用cdn库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.4" data-path="../vue/创建vue项目.html">
+            
+                <a href="../vue/创建vue项目.html">
+            
+                    
+                    创建vue项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.5" data-path="../vue/nextTick源码分析.html">
+            
+                <a href="../vue/nextTick源码分析.html">
+            
+                    
+                    nextTick源码分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.6" data-path="../vue/vue打包.html">
+            
+                <a href="../vue/vue打包.html">
+            
+                    
+                    vue打包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.7" data-path="../vue/vue项目搭建及基本使用.html">
+            
+                <a href="../vue/vue项目搭建及基本使用.html">
+            
+                    
+                    vue项目搭建及基本使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9.8" data-path="../vue/vue资源.html">
+            
+                <a href="../vue/vue资源.html">
+            
+                    
+                    vue资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="../gulp/gulp.html">
+            
+                <a href="../gulp/gulp.html">
+            
+                    
+                    gulp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.10.1" data-path="../gulp/gulp教程.html">
+            
+                <a href="../gulp/gulp教程.html">
+            
+                    
+                    gulp教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="../nginx/nginx.html">
+            
+                <a href="../nginx/nginx.html">
+            
+                    
+                    nginx
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.11.1" data-path="../nginx/konga.html">
+            
+                <a href="../nginx/konga.html">
+            
+                    
+                    konga
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11.2" data-path="../nginx/nginx缓存最佳实战.html">
+            
+                <a href="../nginx/nginx缓存最佳实战.html">
+            
+                    
+                    nginx缓存最佳实战
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11.3" data-path="../nginx/nginx介绍.html">
+            
+                <a href="../nginx/nginx介绍.html">
+            
+                    
+                    nginx介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="../node/node.html">
+            
+                <a href="../node/node.html">
+            
+                    
+                    node
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.12.1" data-path="../node/创建脚手架.html">
+            
+                <a href="../node/创建脚手架.html">
+            
+                    
+                    创建脚手架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="npm.html">
+            
+                <a href="npm.html">
+            
+                    
+                    npm
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.13.1" data-path="创建并发布vuecli4npm包.html">
+            
+                <a href="创建并发布vuecli4npm包.html">
+            
+                    
+                    创建并发布vuecli4npm包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13.2" data-path="nexus.html">
+            
+                <a href="nexus.html">
+            
+                    
+                    nexus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13.3" data-path="npm私库搭建.html">
+            
+                <a href="npm私库搭建.html">
+            
+                    
+                    npm私库搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.13.4" data-path="vscode代码提示.html">
+            
+                <a href="vscode代码提示.html">
+            
+                    
+                    vscode代码提示
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="../echart/echart.html">
+            
+                <a href="../echart/echart.html">
+            
+                    
+                    echart
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.14.1" data-path="../echart/echart使用.html">
+            
+                <a href="../echart/echart使用.html">
+            
+                    
+                    echart使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="../qiankun/qiankun.html">
+            
+                <a href="../qiankun/qiankun.html">
+            
+                    
+                    qiankun
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">后台</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../backEnd/接口规范.html">
+            
+                <a href="../../backEnd/接口规范.html">
+            
+                    
+                    接口规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发工具</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../developTool/git/git.html">
+            
+                <a href="../../developTool/git/git.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../../developTool/git/我的git.html">
+            
+                <a href="../../developTool/git/我的git.html">
+            
+                    
+                    我的git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../../developTool/git/git使用.html">
+            
+                <a href="../../developTool/git/git使用.html">
+            
+                    
+                    git使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../developTool/gittalk/gittalk.html">
+            
+                <a href="../../developTool/gittalk/gittalk.html">
+            
+                    
+                    gittalk
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../../developTool/gittalk/gittalk使用.html">
+            
+                <a href="../../developTool/gittalk/gittalk使用.html">
+            
+                    
+                    gittalk使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../developTool/jenkins/jenkins.html">
+            
+                <a href="../../developTool/jenkins/jenkins.html">
+            
+                    
+                    jenkins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../../developTool/webpack/webpack.html">
+            
+                <a href="../../developTool/webpack/webpack.html">
+            
+                    
+                    webpack
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.4.1" data-path="../../developTool/webpack/webpack加载文件配置.html">
+            
+                <a href="../../developTool/webpack/webpack加载文件配置.html">
+            
+                    
+                    webpack加载文件配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../../developTool/工具.html">
+            
+                <a href="../../developTool/工具.html">
+            
+                    
+                    工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../../developTool/vscode.html">
+            
+                <a href="../../developTool/vscode.html">
+            
+                    
+                    vscode
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发资源</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../developSource/developSource.html">
+            
+                <a href="../../developSource/developSource.html">
+            
+                    
+                    开发资源
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../../developSource/题库资源.html">
+            
+                <a href="../../developSource/题库资源.html">
+            
+                    
+                    题库资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../../developSource/项目资源.html">
+            
+                <a href="../../developSource/项目资源.html">
+            
+                    
+                    项目资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">windows</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../windows/windows.html">
+            
+                <a href="../../windows/windows.html">
+            
+                    
+                    windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../../windows/工具.html">
+            
+                <a href="../../windows/工具.html">
+            
+                    
+                    工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../../windows/阿里云域名配置.html">
+            
+                <a href="../../windows/阿里云域名配置.html">
+            
+                    
+                    阿里云域名配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">生活</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../../life/life.html">
+            
+                <a href="../../life/life.html">
+            
+                    
+                    生活
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../../life/一枝红杏.html">
+            
+                <a href="../../life/一枝红杏.html">
+            
+                    
+                    一枝红杏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../../reference.html">
+            
+                <a href="../../reference.html">
+            
+                    
+                    gitbook 参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../.." >vscode代码提示</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;"><b></b>&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x7F16;&#x5199;tagsjson"><b></b>1.&#x7F16;&#x5199;tags.json</a></li><li><span class="title-icon "></span><a href="#2&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;"><b></b>2.&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;</a></li><li><span class="title-icon "></span><a href="#&#x914D;&#x7F6E;&#x5230;packagejson&#x4E2D;"><b></b>&#x914D;&#x7F6E;&#x5230;package.json&#x4E2D;</a></li></ul></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h2 id="&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;"><a name="&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;" class="anchor-navigation-ex-anchor" href="#&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;" class="plugin-anchor" href="#&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x50CF;element-ui&#x4E00;&#x6837;&#x5728;template&#x4E2D;&#x51FA;&#x73B0;&#x4EE3;&#x7801;&#x63D0;&#x793A;</h2>
+<h3 id="1&#x7F16;&#x5199;tagsjson"><a name="1&#x7F16;&#x5199;tagsjson" class="anchor-navigation-ex-anchor" href="#1&#x7F16;&#x5199;tagsjson"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1&#x7F16;&#x5199;tagsjson" class="plugin-anchor" href="#1&#x7F16;&#x5199;tagsjson"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x7F16;&#x5199;tags.json</h3>
+<p><a href="https://github.com/ElementUI/element-helper-json/blob/master/element-tags.json" target="_blank">https://github.com/ElementUI/element-helper-json/blob/master/element-tags.json</a></p>
+<pre><code>{
+  &quot;el-row&quot;: {
+    &quot;attributes&quot;: [&quot;gutter&quot;, &quot;type&quot;, &quot;justify&quot;, &quot;align&quot;, &quot;tag&quot;],
+    &quot;subtags&quot;: [&quot;el-col&quot;],
+    &quot;description&quot;: &quot;A row in grid system&quot;
+  },
+  &quot;el-col&quot;: {
+    &quot;attributes&quot;: [&quot;span&quot;, &quot;offset&quot;, &quot;push&quot;, &quot;pull&quot;, &quot;xs&quot;, &quot;sm&quot;, &quot;md&quot;, &quot;lg&quot;, &quot;xl&quot;, &quot;tag&quot;],
+    &quot;defaults&quot;: [&quot;:span&quot;],
+    &quot;description&quot;: &quot;A column in grid system&quot;
+  },
+  &quot;el-button&quot;: {
+    &quot;attributes&quot;: [&quot;type&quot;, &quot;size&quot;, &quot;plain&quot;, &quot;loading&quot;, &quot;disabled&quot;, &quot;icon&quot;, &quot;autofocus&quot;, &quot;native-type&quot;, &quot;round&quot;, &quot;circle&quot;],
+    &quot;defaults&quot;: [&quot;type&quot;],
+    &quot;description&quot;: &quot;Commonly used button.&quot;
+  }
+}
+</code></pre><h3 id="2&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;"><a name="2&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#2&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="2&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;" class="plugin-anchor" href="#2&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x7F16;&#x5199;&#x5C5E;&#x6027;&#x63D0;&#x793A;&#x6587;&#x4EF6;</h3>
+<p><a href="https://github.com/ElementUI/element-helper-json/blob/master/element-attributes.json" target="_blank">https://github.com/ElementUI/element-helper-json/blob/master/element-attributes.json</a></p>
+<pre><code>{
+  &quot;gutter&quot;: {&quot;description&quot;: &quot;grid spacing&quot;},
+  &quot;justify&quot;: {&quot;options&quot;: [&quot;start&quot;, &quot;end&quot;, &quot;center&quot;, &quot;space-around&quot;, &quot;space-between&quot;], &quot;description&quot;: &quot;horizontal alignment of flex layout&quot;},
+  &quot;tag&quot;: {&quot;description&quot;: &quot;custom element tag&quot;},
+  &quot;span&quot;: {&quot;description&quot;: &quot;number of column the grid spans&quot;},
+  &quot;push&quot;: {&quot;description&quot;: &quot;number of columns that grid moves to the right&quot;},
+  &quot;pull&quot;: {&quot;description&quot;: &quot;number of columns that grid moves to the left&quot;},
+  &quot;xs&quot;: {&quot;description&quot;: &quot;&lt;768px Responsive columns or column props object&quot;},
+  &quot;sm&quot;: {&quot;description&quot;: &quot;&#x2265;768px Responsive columns or column props object&quot;},
+  &quot;md&quot;: {&quot;description&quot;: &quot;&#x2265;992 Responsive columns or column props object&quot;},
+  &quot;lg&quot;: {&quot;description&quot;: &quot;&#x2265;1200 Responsive columns or column props object&quot;},
+  &quot;xl&quot;: {&quot;version&quot;: &quot;&gt;=2.0.0&quot;, &quot;description&quot;: &quot;&#x2265;1200px Responsive columns or column props object, version &gt;= 2&quot;},
+  &quot;native-type&quot;: {&quot;options&quot;: [&quot;button&quot;, &quot;submit&quot;, &quot;reset&quot;], &quot;description&quot;: &quot;same as native button&apos;s type&quot;},
+  &quot;name&quot;: {&quot;description&quot;: &quot;native &apos;name&apos; attribute&quot;},
+  &quot;fill&quot;: {&quot;description&quot;: &quot;border and background color when button is active&quot;},
+  &quot;true-label&quot;: {&quot;description&quot;: &quot;value of the checkbox if it&apos;s checked&quot;},
+  &quot;false-label&quot;: {&quot;description&quot;: &quot;value of the checkbox if it&apos;s not checked&quot;},
+  &quot;size&quot;: {&quot;options&quot;: [&quot;medium&quot;, &quot;small&quot;, &quot;mini&quot;]},
+}
+</code></pre><h3 id="&#x914D;&#x7F6E;&#x5230;packagejson&#x4E2D;"><a name="&#x914D;&#x7F6E;&#x5230;packagejson&#x4E2D;" class="anchor-navigation-ex-anchor" href="#&#x914D;&#x7F6E;&#x5230;packagejson&#x4E2D;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x914D;&#x7F6E;&#x5230;packagejson&#x4E2D;" class="plugin-anchor" href="#&#x914D;&#x7F6E;&#x5230;packagejson&#x4E2D;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x914D;&#x7F6E;&#x5230;package.json&#x4E2D;</h3>
+<pre><code>&quot;files&quot;:[
+  &quot;vetur&quot;
+],
+&quot;vetur&quot;: {
+  &quot;tags&quot;: &quot;vetur/tags.json&quot;,
+  &quot;attributes&quot;: &quot;vetur/attributes.json&quot;
+},
+</code></pre><h4 id="&#x53C2;&#x8003;&#xFF1A;"><a name="&#x53C2;&#x8003;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x53C2;&#x8003;&#xFF1A;" class="plugin-anchor" href="#&#x53C2;&#x8003;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x8003;&#xFF1A;</h4>
+<p><a href="https://juejin.cn/post/6844904135519633422" target="_blank">https://juejin.cn/post/6844904135519633422</a></p>
+<p><footer class="page-footer"><span class="copyright">&#xA9; &#x9ED1;&#x53D1;&#x6D77;&#x8D3C; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2020-12-30 09:48:33
+</span></footer></p>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="npm私库搭建.html" class="navigation navigation-prev " aria-label="Previous page: npm私库搭建">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../echart/echart.html" class="navigation navigation-next " aria-label="Next page: echart">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"vscode代码提示","level":"3.13.4","depth":2,"next":{"title":"echart","level":"3.14","depth":1,"path":"src/page/frontEnd/echart/echart.md","ref":"./src/page/frontEnd/echart/echart.md","articles":[{"title":"echart使用","level":"3.14.1","depth":2,"path":"src/page/frontEnd/echart/echart使用.md","ref":"./src/page/frontEnd/echart/echart使用.md","articles":[]}]},"previous":{"title":"npm私库搭建","level":"3.13.3","depth":2,"path":"src/page/frontEnd/npm/npm私库搭建.md","ref":"./src/page/frontEnd/npm/npm私库搭建.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","github","github-buttons","donate","sharing-plus","anchor-navigation-ex","favicon","tbfed-pagefooter","mygitalk","insert-logo","pageview-count"],"styles":{"website":"./src/css/common.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy 黑发海贼","modify_label":"该文件修订时间：","modify_format":"2020-12-30 09:48:33"},"github":{"url":"https://github.com/YangJianFei"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"./src/img/alipay.jpg","alipayText":"支付宝捐赠","button":"赞赏","title":"","wechat":"./src/img/wechartpay.png","wechatText":"微信捐赠"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"./src/img/favicon.ico","bookmark":"./src/img/favicon.ico","appleTouch":"./source/images/apple-touch-icon.jpg","appleTouchMore":{"120x120":"./source/images/apple-touch-icon.jpg","180x180":"./source/images/apple-touch-icon.jpg"}},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"pageview-count":{},"github-buttons":{"buttons":[{"user":"YangJianFei","repo":"notes","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"mygitalk":{"flipMoveOptions":{},"clientID":"ff8156cf39addd7559f4","number":-1,"perPage":10,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","admin":["YangJianFei"],"createIssueManually":false,"distractionFreeMode":false,"repo":"notes-comments","owner":"YangJianFei","enableHotKey":true,"clientSecret":"59b3ab8ea694407526de45ff7c117e424ec90a30","pagerDirection":"last","labels":["Gitalk"]},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"insert-logo":{"style":"background:none; height:30px;","url":"./src/img/baiyang.png"}},"theme":"default","author":"黑发海贼","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"黑发海贼 共享笔记","language":"zh-hans","links":{"sidebar":{"我的 Git":"https://github.com/YangJianFei"}},"gitbook":"3.2.3","description":"record all"},"file":{"path":"src/page/frontEnd/npm/vscode代码提示.md","mtime":"2021-08-03T10:41:11.184Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-05T09:43:47.389Z"},"basePath":"../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
