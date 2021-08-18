@@ -10,9 +10,78 @@ https://blog.csdn.net/u014589856/article/details/103582824
 
 https://hub.docker.com/r/apache/superset
 
+## apache/superset 汉化和允许iframe嵌套无登录访问
 > apache/superset设置访问不需要登陆,搜索并修改appe/config.py
 
 https://blog.csdn.net/u013288190/article/details/114843641
+
+> 第一步：（我的办法）
+安装https://hub.docker.com/r/apache/superset安装好
+
+```
+$ docker run -d -p 8080:8088 --name superset apache/superset
+```
+
+> 第二步 初始化配置账号
+
+```
+$ docker exec -it superset superset fab create-admin
+```
+
+> 第二步 加载数据库
+
+```
+$ docker exec -it superset superset db upgrade
+```
+
+> 第三步 加载示例
+
+```
+$ docker exec -it superset superset load_examples
+```
+
+> 第四步 初始化权限
+
+```
+$ docker exec -it superset superset init
+```
+
+> 第五步 修改配置文件汉化和无登录iframe访问
+
+```
+文件所在位置 配置文件：/app/superset/config.py 语言文件 /app/superset/transitions/zh/LC_MESSAGES
+
+（1）进入容器
+$ docker exec -it --user root superset /bin/bash
+
+（2）修改config.py
+安装vim
+$ apt-get install vim 失败先更新apt-get update
+
+$ vim /app/superset/config.py
+
+修改以下内容：
+WTF_CSRF_ENABLED=False
+PUBLIC_ROLE_LIKE="Gamma"
+BABEL_DEFAULT_LOCALE = 'zh'
+HTTP_HEADERS={}
+
+（3）再次初始化 
+$ superset init
+
+（3）在LC_MESSAGES添加message.mo
+服务器上传文件
+$ rz messages.mo
+复制文件到superset
+$ docker cp messages.mo superset:/app/superset/translations/zh/LC_MESSAGES/
+
+重启生效
+$ docker stop superset
+$ docker start superset
+```
+[message.mo](./message.mo)
+
+<a href="./message.mo" target="_blank">message.mo</a>
 
 ## amancevice/superset 汉化和允许iframe嵌套无登录访问
 
@@ -54,8 +123,8 @@ apt-get install vim 失败先更新apt-get update
 
 修改以下内容：
 WTF_CSRF_ENABLED=False
-BABEL_DEFAULT_LOCALE = 'zh'
 PUBLIC_ROLE_LIKE="Gamma"
+BABEL_DEFAULT_LOCALE = 'zh'
 HTTP_HEADERS={}
 
 修改完编译/site-packages/superset/translations (这下面就是语言文件，没有文件可以去github下载)
