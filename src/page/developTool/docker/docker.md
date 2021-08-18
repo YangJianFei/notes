@@ -8,12 +8,14 @@
 3.10.0-1160.el7.x86_64
 ```
 > yum安装
+
 ```
 [admin@localhost ~]$ yum -y install docker
 已加载插件：fastestmirror, langpacks
 您需要 root 权限执行此命令。
 ```
 > 没有权限，获取权限
+
 ```
 [admin@localhost ~]$ su root
 密码：
@@ -23,23 +25,27 @@ Loading mirror speeds from cached hostfile
 
 ```
 > 安装完成，启动docker
+
 ```
 [root@localhost admin]# service docker start
 Redirecting to /bin/systemctl start docker.service
 ```
 > 运行安装示例容器
+
 ```
 [root@localhost admin]# docker run hello-world
 Unable to find image 'hello-world:latest' locally
 Trying to pull repository docker.io/library/hello-world ... 
 ```
 > 查看docker有哪些镜像
+
 ```
 [root@localhost admin]# docker images
 REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
 docker.io/hello-world   latest              d1165f221234        5 months ago 
 ```
 > 查看docker容器
+
 ```
 [root@localhost admin]# docker ps -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
@@ -48,18 +54,21 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 ```
 > 删除容器
+
 ```
 [root@localhost admin]# docker rm mynginx
 mynginx
 
 ```
 > 运行/停止已有容器
+
 ```
 docker start container_id
 docker stop container_id
 ```
 
 > 进入容器
+
 ```
 docker exec -it --user root 容器id /bin/bash
 ```
