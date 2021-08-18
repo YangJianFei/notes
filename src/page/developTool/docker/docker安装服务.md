@@ -64,6 +64,13 @@ pybabel compile -d translations
 修改完重启容器生效
 docker stop superset
 docker start superset
+没生效清浏览器缓存
 按下图配置权限
 ```
 ![docker修改public权限](./docker修改public.png)
+
+> 4最后也可以下载我配好的镜像heifahaizei/superset
+
+```
+docker pull heifahaizei/superset
+```
