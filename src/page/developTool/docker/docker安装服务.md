@@ -50,13 +50,20 @@ find ./ -type f -name config.py
 安装vim
 apt-get install vim 失败先更新apt-get update
 
+> vim /usr/local/lib/python3.6/site-packages/superset/config.py
+
 修改以下内容：
+WTF_CSRF_ENABLED=False
+BABEL_DEFAULT_LOCALE = 'zh'
 PUBLIC_ROLE_LIKE="Gamma"
 HTTP_HEADERS={}
-WTF_CSRF_ENABLED=False
+
+修改完编译/site-packages/superset/translations (这下面就是语言文件，没有文件可以去github下载)
+pybabel compile -d translations
 
 修改完重启容器生效
 docker stop superset
 docker start superset
+按下图配置权限
 ```
 ![docker修改public权限](./docker修改public.png)
