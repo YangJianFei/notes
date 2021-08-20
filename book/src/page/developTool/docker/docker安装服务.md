@@ -22,31 +22,7 @@ https://blog.csdn.net/u013288190/article/details/114843641
 $ docker run -d -p 8080:8088 --name superset apache/superset
 ```
 
-> 第二步 初始化配置账号
-
-```
-$ docker exec -it superset superset fab create-admin
-```
-
-> 第二步 加载数据库
-
-```
-$ docker exec -it superset superset db upgrade
-```
-
-> 第三步 加载示例
-
-```
-$ docker exec -it superset superset load_examples
-```
-
-> 第四步 初始化权限
-
-```
-$ docker exec -it superset superset init
-```
-
-> 第五步 修改配置文件汉化和无登录iframe访问
+> 第二步 修改配置文件汉化和无登录iframe访问
 
 ```
 文件所在位置 配置文件：/app/superset/config.py 语言文件 /app/superset/transitions/zh/LC_MESSAGES
@@ -79,9 +55,40 @@ $ docker cp messages.mo superset:/app/superset/translations/zh/LC_MESSAGES/
 $ docker stop superset
 $ docker start superset
 ```
-[message.mo](./message.mo)
 
-<a href="./message.mo" target="_blank">message.mo</a>
+> 第三步 初始化配置账号
+
+```
+$ docker exec -it superset superset fab create-admin
+```
+
+> 第四步 加载数据库
+
+```
+$ docker exec -it superset superset db upgrade
+```
+
+> 第五步 加载示例
+
+```
+$ docker exec -it superset superset load_examples
+```
+
+> 第六步 初始化权限
+
+```
+$ docker exec -it superset superset init
+```
+
+[message.mo](./messages.mo)
+
+<a href="./messages.mo" target="_blank">messages.mo</a>
+
+> mysql8.0以后版本需要 pip install mysql-connector-python
+
+```
+连接mysql mysql+mysqlconnector://root:XXXXXXXXXX@ip:端口/数据库?charset=utf8
+```
 
 ## amancevice/superset 汉化和允许iframe嵌套无登录访问
 
