@@ -16,7 +16,8 @@ https://hub.docker.com/r/apache/superset
 https://blog.csdn.net/u013288190/article/details/114843641
 
 > 第一步：（我的办法）
-安装https://hub.docker.com/r/apache/superset安装好
+安装好
+https://hub.docker.com/r/apache/superset
 
 ```
 $ docker run -d -p 8080:8088 --name superset apache/superset
@@ -42,18 +43,12 @@ PUBLIC_ROLE_LIKE="Gamma"
 BABEL_DEFAULT_LOCALE = 'zh'
 HTTP_HEADERS={}
 
-（3）再次初始化 
-$ superset init
-
 （3）在LC_MESSAGES添加message.mo
 服务器上传文件
 $ rz messages.mo
 复制文件到superset
 $ docker cp messages.mo superset:/app/superset/translations/zh/LC_MESSAGES/
 
-重启生效
-$ docker stop superset
-$ docker start superset
 ```
 
 > 第三步 初始化配置账号
@@ -89,6 +84,8 @@ $ docker exec -it superset superset init
 ```
 连接mysql mysql+mysqlconnector://root:XXXXXXXXXX@ip:端口/数据库?charset=utf8
 ```
+
+![docker修改public权限](./docker修改public.png)
 
 ## amancevice/superset 汉化和允许iframe嵌套无登录访问
 
