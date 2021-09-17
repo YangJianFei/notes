@@ -8,3 +8,6 @@ https://figmachina.com/
 
 ## 设计大佬
 https://zuozizhen.com/
+
+## 一些精美效果
+https://juejin.cn/post/6844904031513477128
