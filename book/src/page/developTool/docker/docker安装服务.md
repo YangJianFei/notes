@@ -147,3 +147,21 @@ docker start superset
 ```
 docker pull heifahaizei/superset
 ```
+
+## 更新superst
+```
+# Pull desired version
+docker pull amancevice/superset
+
+# Remove the current container
+docker rm -f superset-old
+
+# Deploy a new container ...
+docker run --detach --name superset-new [options] amancevice/superset
+
+# Upgrade the DB
+docker exec superset-new superset db upgrade
+
+# Sync the base permissions
+docker exec superset-new superset init
+```
