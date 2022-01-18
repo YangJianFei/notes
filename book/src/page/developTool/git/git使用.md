@@ -19,3 +19,15 @@ https://img.shields.io
 
 ## 拉取远程分支到本地
 git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
+
+## git Tag
+
+### 打标签
+```
+git tag -a v1.4 -m "my version 1.4"
+```
+
+### 推送标签到服务器
+```
+git push origin v1.4
+```

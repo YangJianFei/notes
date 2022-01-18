@@ -57,5 +57,46 @@ https://github.com/ElementUI/element-helper-json/blob/master/element-attributes.
 },
 ```
 
+### 利用typescript配置js、ts代码提示
+```
+// package.json:
+{
+    "name": "my-ts-lib",
+    "version": "1.0.0",
+    "description": "My npm package written in TS",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "release": "tsc && npm publish"
+    },
+    "author": "savokiss",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^3.5.3"
+    }
+}
+
+// tsconfig.json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es2017", "es7", "es6", "dom"],
+        "declaration": true,
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "allowJs": true
+    },
+    "exclude": ["node_modules", "dist"]
+}
+
+// https://www.tslang.cn/docs/handbook/tsconfig-json.html
+// https://segmentfault.com/a/1190000019827652
+```
+
 #### 参考：
 https://juejin.cn/post/6844904135519633422
+
+https://segmentfault.com/a/1190000019827652

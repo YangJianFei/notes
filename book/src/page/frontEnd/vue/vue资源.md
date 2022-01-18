@@ -12,5 +12,7 @@ https://blog.csdn.net/frontend_frank/article/details/106654536
 
 ## vue-admin-template/vue-element-admin/vue-h5-template
 
+## gin-vue-admin.com
+
 ## vue风格指南
 https://v3.cn.vuejs.org/style-guide/#prop-%E5%AE%9A%E4%B9%89%E5%BF%85%E8%A6%81

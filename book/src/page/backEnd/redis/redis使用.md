@@ -10,9 +10,19 @@ npm install redis
 > select 0-15数据库
 ### 连接
 ```
-var redis = require('redis');
+var redis = require('redis'),
+RDS_PORT = 6389,        //端口号
+RDS_HOST = '127.0.0.1',    //服务器IP
+RDS_PWD = '88888888888888',     //密码 
+RDS_OPTS = {},            //设置项
+rclient = redis.createClient(RDS_PORT,RDS_HOST,RDS_OPTS);
+rclient.auth(RDS_PWD,function(){  
+    console.log('redis通过认证');  
+}); 
 
-var client = redis.createClient(6379,'localhost');
+//redis数据库
+rclient.set('key','1');//赋值
+rclient.expire('key',60);//60秒自动过期
 
 client.set('hello','This is a value');
 
