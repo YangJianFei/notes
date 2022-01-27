@@ -95,6 +95,9 @@
 * [windows](./src/page/windows/windows.md)
     * [工具](./src/page/windows/工具.md)
     * [阿里云域名配置](./src/page/windows/阿里云域名配置.md)
+### windows
+* [ubuntu](./src/page/ubuntu/ubuntu.md)
+    * [ubuntu使用](./src/page/ubuntu/ubuntu使用.md)
 
 
 ### 生活
