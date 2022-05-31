@@ -42,6 +42,7 @@
     * [vue打包](./src/page/frontEnd/vue/vue打包.md)
     * [vue项目搭建及基本使用](./src/page/frontEnd/vue/vue项目搭建及基本使用.md)
     * [vue资源](./src/page/frontEnd/vue/vue资源.md)
+    * [vue.config.js](./src/page/frontEnd/vue/vue.config.md)
 
 * [gulp](./src/page/frontEnd/gulp/gulp.md)
     * [gulp教程](./src/page/frontEnd/gulp/gulp教程.md)
