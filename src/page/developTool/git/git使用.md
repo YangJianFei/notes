@@ -67,3 +67,23 @@ git stash show stash@{1}    查看指定的stash和当前目录差异。
 git stash show -p   查看详细的不同：
 
 ```
+
+## 合并某个或某些提交到其他分支
+```
+1.git pull（下拉所有分支代码，预防冲突）
+2.git log （查看提交的信息,复制你要合的提交的 commit id. 你可以百度git log获取更多查看操作）
+3.git checkout 分支id （切换到要修改的分支）
+4.git cherry-pick
+
+#1.A是commit id
+git cherry-pick A 
+
+#2.合并A B
+git cherry-pick A B 
+
+#3.合并从A到B的所有提交，不包括A
+git cherry-pick A..B 
+
+#4.合并从A到B的所有提交，包括A
+git cherry-pick A^..B
+```
