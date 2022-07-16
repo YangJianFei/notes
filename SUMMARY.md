@@ -33,6 +33,9 @@
     * [layzeload](./src/page/frontEnd/js/layzeload.md)
     * [webrtc](./src/page/frontEnd/js/webrtc.md)
 
+* [react](./src/page/frontEnd/react/react.md)
+    * [react资源](./src/page/frontEnd/react/react%E8%B5%84%E6%BA%90.md)
+
 * [vue](./src/page/frontEnd/vue/vue.md)
     * [vue使用ts](./src/page/frontEnd/vue/vue使用ts.md)
     * [vue兼容IE](./src/page/frontEnd/vue/vue兼容IE.md)
@@ -100,6 +103,8 @@
 * [ubuntu](./src/page/ubuntu/ubuntu.md)
     * [ubuntu使用](./src/page/ubuntu/ubuntu使用.md)
 
+### 工作
+* [工作](./src/page/work/job.md)
 
 ### 生活
 * [生活](./src/page/life/life.md)
