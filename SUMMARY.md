@@ -96,6 +96,9 @@
     * [题库资源](./src/page/developSource/题库资源.md)
     * [项目资源](./src/page/developSource/项目资源.md)
 
+### mac
+* [mac](./src//page//mac/index.md)
+
 ### windows
 * [windows](./src/page/windows/windows.md)
     * [工具](./src/page/windows/工具.md)
