@@ -370,3 +370,20 @@ $('.analysis-box').on('mousedown', function (e) {
     };
 });
 ```
+
+## js报错数据到本地
+```
+saveFile (text) {
+  var data = text;
+  var name = 'a.txt';//文件名
+  this.exportRaw(data, name);
+},
+exportRaw (data, name) {
+  var urlObject = window.URL || window.webkitURL || window;
+  var export_blob = new Blob([data]);
+  var save_link = document.createElementNS("http://www.w3.org/1999/xhtml","a")
+  save_link.href = urlObject.createObjectURL(export_blob);
+  save_link.download = name;
+  save_link.click();
+}
+```
