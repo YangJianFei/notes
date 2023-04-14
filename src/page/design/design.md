@@ -11,3 +11,6 @@ https://zuozizhen.com/
 
 ## 一些精美效果
 https://juejin.cn/post/6844904031513477128
+
+## 动画图标设计
+https://creattie.com/
