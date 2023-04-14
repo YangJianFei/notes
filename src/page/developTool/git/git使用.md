@@ -87,3 +87,6 @@ git cherry-pick A..B
 #4.合并从A到B的所有提交，包括A
 git cherry-pick A^..B
 ```
+
+## git合并fork源项目的更新
+https://dianzubuluo.com/%E6%9C%AA%E5%91%BD%E5%90%8D/139407.html
