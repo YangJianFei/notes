@@ -1,3 +1,6 @@
+## git提交规范
+husky
+https://blog.csdn.net/u012244479/article/details/125733251
 
 ## git
 
@@ -14,3 +17,4 @@ git慢怎么办
 185.199.108.153 assets-cdn.github.com
 199.232.69.194  github.global.ssl.fastly.net
 ```
+

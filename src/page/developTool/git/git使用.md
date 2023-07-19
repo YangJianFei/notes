@@ -2,7 +2,7 @@
  * @Description:   
  * @Author: YangJianFei
  * @Date: 2023-03-02 14:11:55
- * @LastEditTime: 2023-04-14 18:12:23
+ * @LastEditTime: 2023-07-05 17:31:44
  * @LastEditors: YangJianFei
  * @FilePath: \notes\src\page\developTool\git\git使用.md
 -->
@@ -29,11 +29,16 @@ https://docs.github.com/cn
 
 https://img.shields.io
 
-> 拉取远程分支到本地
+## 分支
+
+### 拉取远程分支到本地
 
 git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
 
-> git Tag
+### 拉取分支指定版本
+git checkout -b 分支 版本号
+
+##  git Tag
 ***
 ### 打标签
 ```
@@ -102,3 +107,8 @@ https://dianzubuluo.com/%E6%9C%AA%E5%91%BD%E5%90%8D/139407.html
 ## git添加多个远程仓库
 git remote add fly 地址
 git push fly 本地分支:远程分支
+
+## git删除本地分支
+git branch -d 本地分支名A
+git branch -D 本地分支名A
+git push origin -d 远程分支名
