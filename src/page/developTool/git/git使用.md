@@ -2,7 +2,7 @@
  * @Description:   
  * @Author: YangJianFei
  * @Date: 2023-03-02 14:11:55
- * @LastEditTime: 2023-07-05 17:31:44
+ * @LastEditTime: 2023-08-09 09:56:23
  * @LastEditors: YangJianFei
  * @FilePath: \notes\src\page\developTool\git\git使用.md
 -->
@@ -48,6 +48,11 @@ git tag -a v1.4 -m "my version 1.4"
 ### 推送标签到服务器
 ```
 git push origin v1.4
+```
+
+### 拉标签代码
+```
+git checkout <tagname>
 ```
 
 > ## git保存工作区和暂存区的代码恢复到任何分支（妈妈再也不用担心代码错乱了）

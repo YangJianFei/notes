@@ -1,3 +1,6 @@
+## echart在线配置
+http://echarts-set.com/
+
 ## echart事件示例
 ```
 barChart.on('mouseover', function (params) {
