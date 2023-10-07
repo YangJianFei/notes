@@ -1,0 +1,489 @@
+{
+    "root": {
+        "data": {
+            "id": "cvd4kpske2g0",
+            "created": 1694134545055,
+            "text": "前端"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cvd4l0bqo680",
+                    "created": 1694134567982,
+                    "text": "数据结构",
+                    "layout_mind_offset": {
+                        "x": 30,
+                        "y": -38
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4nee73vs0",
+                            "created": 1694134755334,
+                            "text": "链表",
+                            "layout_right_offset": {
+                                "x": -8,
+                                "y": -49
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvdcgeeizzc0",
+                            "created": 1694156775684,
+                            "text": "hash表"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvgj11831tk0",
+                            "created": 1694479999173,
+                            "text": "二叉树"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4l5c2le00",
+                    "created": 1694134578886,
+                    "text": "算法",
+                    "layout_mind_offset": {
+                        "x": 42,
+                        "y": 34
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4lldgnz40",
+                            "created": 1694134613799,
+                            "text": "排序算法",
+                            "layout_right_offset": {
+                                "x": 9,
+                                "y": -54
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvd4lt5eusg0",
+                                    "created": 1694134630726,
+                                    "text": "冒泡排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvihirxa0ao0",
+                                    "created": 1694678867177,
+                                    "text": "直接插入排序"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvd509lxxyw0",
+                            "created": 1694135763653,
+                            "text": "复杂度计算"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvd50gcbq4w0",
+                                    "created": 1694135778309,
+                                    "text": "时间复杂度"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd50jbwgk00",
+                                    "created": 1694135784813,
+                                    "text": "空间复杂度"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvlp6pewpps0",
+                            "created": 1695005170092,
+                            "text": "Boyer-Moore 投票算法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4ldrfx7c0",
+                    "created": 1694134597230,
+                    "text": "设计模式",
+                    "layout_mind_offset": {
+                        "x": 69,
+                        "y": 118
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4lwdfl9k0",
+                            "created": 1694134637742,
+                            "text": "单例模式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvd4m056e8w0",
+                            "created": 1694134645950,
+                            "text": "工厂模式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvd4m4qkki80",
+                            "created": 1694134655950,
+                            "text": "发布订阅模式"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4maieug80",
+                    "created": 1694134668518,
+                    "text": "vue",
+                    "layout_mind_offset": {
+                        "x": -386,
+                        "y": -282
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4mpw4ra80",
+                            "created": 1694134701999,
+                            "text": "源码",
+                            "layout_left_offset": {
+                                "x": -231,
+                                "y": -12
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvd4mmejvjc0",
+                                    "created": 1694134694406,
+                                    "text": "diff算法",
+                                    "layout_left_offset": {
+                                        "x": -185,
+                                        "y": 13
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4muyfhoo0",
+                                    "created": 1694134713022,
+                                    "text": "模板解析",
+                                    "layout_left_offset": {
+                                        "x": -213,
+                                        "y": 11
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4myj11880",
+                                    "created": 1694134720798,
+                                    "text": "虚拟dom",
+                                    "layout_left_offset": {
+                                        "x": -193,
+                                        "y": 6
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4mejouy80",
+                    "created": 1694134677302,
+                    "text": "react",
+                    "layout_mind_offset": {
+                        "x": -517,
+                        "y": -569
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4n3bp1fc0",
+                            "created": 1694134731238,
+                            "text": "fiber架构",
+                            "layout_left_offset": {
+                                "x": -5,
+                                "y": -25
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvd4n6wte6o0",
+                            "created": 1694134739046,
+                            "text": "合成事件"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4nkdzcy80",
+                    "created": 1694134768382,
+                    "text": "html",
+                    "layout_mind_offset": {
+                        "x": -497,
+                        "y": -393
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4nns8ezc0",
+                            "created": 1694134775774,
+                            "text": "渲染流程"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4ns1g1p40",
+                    "created": 1694134785038,
+                    "text": "浏览器",
+                    "layout_mind_offset": {
+                        "x": -602,
+                        "y": -233
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4o2dgyu80",
+                            "created": 1694134807533,
+                            "text": "缓存机制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvd4o65qx480",
+                                    "created": 1694134815773,
+                                    "text": "强缓存"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4o8o95pk0",
+                                    "created": 1694134821246,
+                                    "text": "协商缓存"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvd4ochb1ko0",
+                            "created": 1694134829533,
+                            "text": "进程"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvd4pq4r4zk0",
+                                    "created": 1694134937613,
+                                    "text": "浏览器进程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4q5oxle80",
+                                    "created": 1694134971485,
+                                    "text": "gpu进程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4ol9dsig0",
+                                    "created": 1694134848645,
+                                    "text": "网络进程",
+                                    "layout_left_offset": {
+                                        "x": -7,
+                                        "y": 3
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4ookn0h40",
+                                    "created": 1694134855856,
+                                    "text": "渲染进程",
+                                    "layout_left_offset": {
+                                        "x": -2,
+                                        "y": 5
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4qk8goq80",
+                                    "created": 1694135003141,
+                                    "text": "插件进程"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4qxxfze80",
+                    "created": 1694135032949,
+                    "text": "js",
+                    "layout_mind_offset": {
+                        "x": -1,
+                        "y": 223
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cvd4r1lct200",
+                    "created": 1694135040925,
+                    "text": "css",
+                    "layout_mind_offset": {
+                        "x": 6,
+                        "y": 247
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cvd4rceu4ew0",
+                    "created": 1694135064476,
+                    "text": "node",
+                    "layout_mind_offset": {
+                        "x": 458,
+                        "y": 29
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cvd4rgzfek00",
+                    "created": 1694135074428,
+                    "text": "打包",
+                    "layout_mind_offset": {
+                        "x": 673,
+                        "y": 195
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvd4s44lwjs0",
+                            "created": 1694135124807,
+                            "text": "webpack"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvd4s9z3f4w0",
+                                    "created": 1694135137535,
+                                    "text": "插件",
+                                    "layout_right_offset": {
+                                        "x": 13,
+                                        "y": -23
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvd4sdrna000",
+                                    "created": 1694135145791,
+                                    "text": "库模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvd4s7ilfzs0",
+                            "created": 1694135132183,
+                            "text": "vite"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvd4so0ij6o0",
+                    "created": 1694135168095,
+                    "text": "组件库",
+                    "layout_mind_offset": {
+                        "x": 474,
+                        "y": 186
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cvhmqmqj3jk0",
+                    "created": 1694592028392,
+                    "text": "八股文",
+                    "layout_mind_offset": {
+                        "x": 297,
+                        "y": -852
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

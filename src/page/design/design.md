@@ -17,3 +17,6 @@ https://creattie.com/
 
 ## 设计很清爽的一个网站
 https://bas.dev/work/meteocons
+
+## 超级酷炫的一个网站，比苹果还酷炫
+https://lusion.co/

@@ -26,3 +26,6 @@ vue-beautify
   "vetur.format.defaultFormatter.ts": "vscode-typescript",
   "vetur.format.defaultFormatter.css": "prettier",
 ```
+
+## 重启ts校验
+Restart Ts Server
