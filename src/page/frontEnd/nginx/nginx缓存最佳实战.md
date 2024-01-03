@@ -1,3 +1,6 @@
+## 各种缓存介绍
+https://blog.csdn.net/JarryNeverGiveup/article/details/131060939
+
 ## nginx某网站配置
 ```
 #user  nobody;

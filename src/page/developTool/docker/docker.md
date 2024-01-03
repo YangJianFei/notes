@@ -80,3 +80,6 @@ https://www.jianshu.com/p/8c40e2d78e1b
 > 自定义登陆授权
 
 https://www.jianshu.com/p/063ccb8e2a75
+
+## 运行nexus
+sudo docker run -d --restart always --name nexus3 -p 8081:8081 -v /docker/nexus:/var/nexus-data sonatype/nexus3

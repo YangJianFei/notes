@@ -29,3 +29,23 @@ vue-beautify
 
 ## 重启ts校验
 Restart Ts Server
+
+## 开启css module智能提示
+https://juejin.cn/post/6878519063270817805
+1：npm install -D typescript-plugin-css-modules
+2：tsconfig.json中配置
+```
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": "\\.(c|le||lle|sa|sc)ss$"
+        }
+      }
+    ]
+  }
+}
+```
+3:vscode配置：搜索typescript.tsserver.pluginPaths，然后添加typescript-plugin-css-modules

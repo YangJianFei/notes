@@ -9,3 +9,4 @@ http://www.psjia.com/pssc/fontxz/list_18_3.html
 
 ## 在线ps
 https://www.uupoop.com/
+https://www.photopea.com/

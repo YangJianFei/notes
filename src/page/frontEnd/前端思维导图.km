@@ -227,8 +227,8 @@
                     "created": 1694134677302,
                     "text": "react",
                     "layout_mind_offset": {
-                        "x": -517,
-                        "y": -569
+                        "x": -391,
+                        "y": -576
                     }
                 },
                 "children": [
@@ -238,8 +238,8 @@
                             "created": 1694134731238,
                             "text": "fiber架构",
                             "layout_left_offset": {
-                                "x": -5,
-                                "y": -25
+                                "x": -259,
+                                "y": -32
                             }
                         },
                         "children": []
@@ -248,7 +248,23 @@
                         "data": {
                             "id": "cvd4n6wte6o0",
                             "created": 1694134739046,
-                            "text": "合成事件"
+                            "text": "合成事件",
+                            "layout_left_offset": {
+                                "x": -242,
+                                "y": 0
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwcyghcdjmg0",
+                            "created": 1697773444986,
+                            "text": "源码（useState原理为啥多次执行返回值不会变）",
+                            "layout_left_offset": {
+                                "x": -464,
+                                "y": -213
+                            }
                         },
                         "children": []
                     }
