@@ -5,3 +5,6 @@
 /usr/share/nginx：存放静态文件
 /var/log/nginx：存放日志
 ```
+
+## web命令行远程连接服务器
+xterm
