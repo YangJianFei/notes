@@ -29,6 +29,9 @@ FROM node:16
 
 WORKDIR /root/battery-check-node
 
+# RUN npm install pnpm@8.14.1 -g && npm install pm2@5.3.0 -g 
+# RUN pm2 install pm2-intercom && pm2 install pm2-logrotate
+
 EXPOSE 3000
 
 CMD ["npm","start"]
